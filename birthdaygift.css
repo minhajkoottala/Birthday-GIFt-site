@@ -1,0 +1,100 @@
+body {
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  /* background: #a2d2ff; */
+  background: linear-gradient(#a2d2ff, #efb0c9);
+  color: #ffffff;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 150px;
+  border: 6px solid #efb0c9;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 2px black;
+}
+
+#bday-age {
+  background: #efb0c9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 15px 0px 10px 0px;
+}
+
+#bday-date {
+  background: #efb0c9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 0 0 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-sec {
+  margin: 50px 0 0 0;
+}
+
+.h2-gift {
+  margin-bottom: 25px;
+}
+
+.gift-img1 {
+  background-image: url("giftbox.png");
+  background-size: cover;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border: 6px white solid;
+  border-radius: 10px;
+}
+
+#gift-img1:hover {
+  background-image: url("happyvid1.webp");
+  background-size: 400px 400px;
+}
+
+#gift-img2:hover {
+  background: url("birthdaysurprise.webp");
+  background-size: 400px 400px;
+}
+
+#gift-img3:hover {
+  background: url("genius.webp");
+  background-size: 400px 400px;
+}
+
+#gift-img4:hover {
+  background: url("badass.webp");
+  background-size: cover;
+}
+
+#gift-img5 {
+  background-image: url("giftbox2.png");
+  background-size: cover;
+  height: 200px;
+}
+
+#gift-img5:hover {
+  background: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWVmY3k3bzY5YTJ1cnE1YTF1a24xODdnNTJ3ZXh1MGwyaGo2azBwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7nUkHEdz3AMkkbGWV1/giphy.gif");
+  background-size: 400px 200px;
+}
+
+#footer {
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+}
+
+a {
+  color: white;
+}
