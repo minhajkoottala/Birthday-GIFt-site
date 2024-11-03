@@ -49,7 +49,7 @@ p {
 }
 
 .gift-img1 {
-  background-image: url("giftbox.png");
+  background-image: url("images/giftbox.png");
   background-size: cover;
   margin: 0 auto;
   width: 400px;
@@ -59,27 +59,27 @@ p {
 }
 
 #gift-img1:hover {
-  background-image: url("happyvid1.webp");
+  background-image: url("images/happyvid1.webp");
   background-size: 400px 400px;
 }
 
 #gift-img2:hover {
-  background: url("birthdaysurprise.webp");
+  background: url("images/birthdaysurprise.webp");
   background-size: 400px 400px;
 }
 
 #gift-img3:hover {
-  background: url("genius.webp");
+  background: url("images/genius.webp");
   background-size: 400px 400px;
 }
 
 #gift-img4:hover {
-  background: url("badass.webp");
+  background: url("images/badass.webp");
   background-size: cover;
 }
 
 #gift-img5 {
-  background-image: url("giftbox2.png");
+  background-image: url("images/giftbox2.png");
   background-size: cover;
   height: 200px;
 }
